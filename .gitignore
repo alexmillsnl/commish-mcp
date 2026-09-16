@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Secrets and local auth state — never commit
+.env
+.env.*
+!.env.example
+*.token.json
+tokens/
+.oauth/
+
+# OS / editor noise
+.DS_Store
